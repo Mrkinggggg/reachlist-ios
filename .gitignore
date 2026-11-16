@@ -1,0 +1,20 @@
+# macOS / Xcode 过程文件
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.xccheckout
+*.xcscmblueprint
+
+# 开发期工具与过程素材（不入库）
+tools/
+外部参考图片/
+ZZVisualProbe.swift
+ZZNotificationLimitProbe.swift
+
+# Swift / 构建产物
+*.swiftmodule
+*.swiftdoc
+*.o
+*.dSYM/

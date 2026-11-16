@@ -54,7 +54,7 @@ extension MergeState: Codable {
 
 // MARK: - M-05 MergeEngine（shared/merge.js，48 行，逐字等价）
 //
-// 契约来源：docs/ios-native-plan.md §2.6.1，逐条对应关系如下。
+// 契约来源：上游 shared/merge.js（baseline 97a7c4c），逐条对应关系如下。
 //
 // 【1】taskSig = JSON.stringify(除 updatedAt 外的全部字段) —— 键序敏感
 // 【2】newer(x, y)：先比 updatedAt，相等时用 taskSig 字符串比较做确定性裁决
