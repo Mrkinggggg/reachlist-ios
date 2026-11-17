@@ -1,0 +1,7 @@
+{
+  "name": "reachlist-ios",
+  "version": "0.12.0",
+  "private": true,
+  "description": "ReachList iOS 原生 App（独立仓库）。本文件是 iOS 端版本号的单一来源，与上游 planner 仓库同源取值；构建期由 Planner/Config/sync-version.sh 读取并生成 Version.xcconfig。",
+  "license": "UNLICENSED"
+}
