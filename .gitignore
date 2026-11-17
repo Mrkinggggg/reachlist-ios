@@ -18,3 +18,46 @@ ZZNotificationLimitProbe.swift
 *.swiftdoc
 *.o
 *.dSYM/
+
+# 工程/项目说明文档（本机开发需要，不进公开仓库）
+docs/
+
+# 本机隐私覆盖文件（真实 Team ID / 令牌 / 本机 IP 只留本机）
+*.local.xcconfig
+*.local.swift
+*.local.json
+*.local.mjs
+*.local.yaml
+*.local.yml
+.env
+.env.*
+secrets.*
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+*.key
+*.jks
+*.keystore
+
+# 过程文件 / DEV-ONLY（临时脚本、探针、浏览器快照、日志）
+ZZ*.swift
+app截图/
+.playwright-cli/
+playwright-report/
+test-results/
+now.yaml
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+tmp/
+temp/
+.cache/
+node_modules/
+dist/
+
+# 编辑器 / IDE
+.idea/
+.vscode/
